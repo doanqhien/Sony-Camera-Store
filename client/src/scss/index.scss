@@ -1,0 +1,26 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+/*===== Base =====*/
+@import './base.scss';
+
+/*===== Header =====*/
+@import '../components/headers/Header.scss';
+
+/*===== Home =====*/
+@import '../components/mainpages/home/Home.scss';
+
+/*===== Footer =====*/
+@import '../components/footer/Footer.scss';
+
+/*===== User form =====*/
+@import '../components/mainpages/user/User.scss';
+
+/*===== User form =====*/
+@import '../components/mainpages/product/ProductDetail.scss';
+
+/*========== MEDIA QUERIES ==========*/
+@import './responsive.scss';
+
+
+ 

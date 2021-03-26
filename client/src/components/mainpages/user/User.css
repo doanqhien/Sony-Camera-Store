@@ -1,0 +1,162 @@
+.form {
+  width: 1024px;
+  height: 768px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 5vw;
+  padding-top: 110px;
+}
+
+.form__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__right {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 10% 10%;
+}
+
+.form__right__email {
+  margin-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 25px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 2rem;
+  width: 370px;
+}
+
+.form__right__email:hover {
+  border-color: var(--first-color);
+}
+
+.form__right__pass {
+  margin-bottom: 65px;
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.form__right__pass__word, .form__right__pass__cf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 25px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 2rem;
+  width: 370px;
+}
+
+.form__right__pass__word:hover, .form__right__pass__cf:hover {
+  border-color: var(--first-color);
+}
+
+.form__right__username {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.form__right__username__last, .form__right__username__first {
+  padding-left: 25px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 2rem;
+  width: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form__right__username__last:hover, .form__right__username__first:hover {
+  border-color: var(--first-color);
+}
+
+.form__right__username__last {
+  margin-left: 10px;
+}
+
+.form__right__err {
+  text-align: center;
+  color: #d74949;
+  font-weight: 100;
+}
+
+.form__right__field {
+  background-color: var(--body-color);
+  border: none;
+  font-size: 1rem;
+  padding-left: 20px;
+  color: var(--text-color);
+}
+
+.form__right__field:hover, .form__right__field:focus {
+  outline: none;
+}
+
+.form__right__button {
+  height: 50px;
+  border: 1px solid;
+  border-radius: 2rem;
+  margin-bottom: 40px;
+  width: 370px;
+}
+
+.form__right__title {
+  font-size: 2,5rem;
+  color: var(--first-color);
+  text-align: center;
+  width: 370px;
+}
+
+.form__right__subtitle {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 5vw;
+  text-align: center;
+  width: 370px;
+}
+
+.form__right__subtitle__left, .form__right__subtitle__right {
+  color: var(--text-color);
+}
+
+.form__right__subtitle__left:hover, .form__right__subtitle__right:hover {
+  text-decoration: none;
+  color: var(--first-color);
+}
+
+.bx-show,
+.bx-hide {
+  padding-left: 1.2rem;
+}
+/*# sourceMappingURL=User.css.map */

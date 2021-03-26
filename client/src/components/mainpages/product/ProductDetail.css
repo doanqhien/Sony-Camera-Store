@@ -1,0 +1,73 @@
+.intro {
+  height: 100vh;
+}
+
+.intro video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.intro h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: white;
+}
+
+.product__video {
+  height: 100vh;
+  color: black;
+}
+
+.product__video h1 {
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px;
+}
+
+.product__video video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.App1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.div1 {
+  background-color: red;
+  height: 400px;
+  width: 100%;
+}
+
+.div2 {
+  background-color: green;
+  height: 400px;
+  width: 100%;
+}
+
+.div3 {
+  background-color: blue;
+  height: 400px;
+  width: 100%;
+}
+
+.bottomSpacing {
+  height: 500px;
+}
+
+.topSpacing {
+  height: 500px;
+  margin: 10%;
+  font-size: 40px;
+  background-color: grey;
+}
+/*# sourceMappingURL=ProductDetail.css.map */

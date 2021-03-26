@@ -1,0 +1,119 @@
+.form {
+  width: 1024px;
+  height: 768px;
+  margin: auto;
+  display: -ms-grid;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5vw;
+  padding-top: 110px;
+  &__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__right {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 10% 10%;
+    &__email {
+      margin-top: 65px;
+      display: flex;
+      align-items: center;
+      padding-left: 25px;
+      height: 50px;
+      border: 1px solid;
+      border-radius: 2rem;
+      width: 370px;
+      &:hover {
+        border-color: var(--first-color);
+      }
+    }
+    &__pass {
+      margin-bottom: 65px;
+      display: grid;
+      grid-gap: 20px;
+      &__word,
+      &__cf {
+        display: flex;
+        align-items: center;
+        padding-left: 25px;
+        height: 50px;
+        border: 1px solid;
+        border-radius: 2rem;
+        width: 370px;
+        &:hover {
+          border-color: var(--first-color);
+        }
+      }
+    }
+    &__username {
+      display: inline-flex;
+      &__last,
+      &__first {
+        padding-left: 25px;
+        height: 50px;
+        border: 1px solid;
+        border-radius: 2rem;
+        width: 180px;
+        display: flex;
+        align-items: center;
+        &:hover {
+          border-color: var(--first-color);
+        }
+      }
+      &__last {
+        margin-left: 10px;
+      }
+    }
+    &__err {
+      text-align: center;
+      color: #d74949;
+      font-weight: 100;
+    }
+    &__field {
+      background-color: var(--body-color);
+      border: none;
+      font-size: 1rem;
+      padding-left: 20px;
+      color: var(--text-color);
+      &:hover,
+      &:focus {
+        outline: none;
+      }
+    }
+    &__button {
+      height: 50px;
+      border: 1px solid;
+      border-radius: 2rem;
+      margin-bottom: 40px;
+      width: 370px;
+    }
+    &__title {
+      font-size: 2,5rem;
+      color: var(--first-color);
+      text-align: center;
+      width: 370px;
+    }
+    &__subtitle {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 5vw;
+      text-align: center;
+      width: 370px;
+      &__left,
+      &__right {
+        color: var(--text-color);
+        &:hover {
+          text-decoration: none;
+          color: var(--first-color);
+        }
+      }
+    }
+  }
+}
+.bx-show,
+.bx-hide {
+  padding-left: 1.2rem;
+}

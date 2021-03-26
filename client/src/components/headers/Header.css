@@ -1,0 +1,119 @@
+.nav {
+  max-width: 1024px;
+  height: var(--header-height);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav__icon {
+  font-size: 1.5rem;
+}
+
+.nav__logo {
+  color: var(--brand-color);
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav__logo:hover {
+  text-decoration: none;
+  color: var(--first-color);
+}
+
+.nav__item {
+  margin-bottom: var(--mb-2);
+}
+
+.nav__link {
+  -webkit-transition: .3s;
+  transition: .3s;
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+}
+
+.nav__link:hover {
+  color: var(--first-color);
+  text-decoration: none;
+}
+
+.nav__link-active {
+  color: var(--first-color);
+}
+
+.nav__toggle {
+  color: var(--text-color);
+  font-weight: var(--font-medium);
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__menu {
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    padding: 1.5rem 0 1rem;
+    text-align: center;
+    background-color: var(--body-color);
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 1rem 1rem;
+    z-index: var(--z-fixed);
+  }
+  .show {
+    top: var(--header-height);
+  }
+}
+
+/* Scroll top */
+.scrolltop {
+  position: fixed;
+  right: 1rem;
+  bottom: -20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .3rem;
+  border-radius: .4rem;
+  z-index: var(--z-tooltip);
+  -webkit-transition: .4s;
+  transition: .4s;
+  visibility: hidden;
+}
+
+.scrolltop__icon {
+  font-size: 2rem;
+}
+
+.show-scroll {
+  visibility: visible;
+  bottom: 1.5rem;
+}
+
+.bx-moon:hover,
+.bx-sun:hover {
+  color: var(--first-color);
+}
+
+/* Change background header */
+.scroll-header {
+  -webkit-box-shadow: 0 2px 4px var(--header-color);
+          box-shadow: 0 2px 4px var(--header-color);
+}
+/*# sourceMappingURL=Header.css.map */
